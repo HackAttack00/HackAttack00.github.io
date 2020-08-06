@@ -1,9 +1,8 @@
 ---
-title: "iOS keyboard inputview"
+title: "String에 부분 색깔 및 폰트 입히기"
 date: 2020-08-06 22:25:00 -0400
 categories: AttributedString font color
 ---
-String에 부분 색깔 및 폰트 입히기
 
     func makeEmptyGuideText(label:UILabel?) {
         let font = UIFont(name:"AppleSDGothicNeo-Regular" , size: 14.0)!

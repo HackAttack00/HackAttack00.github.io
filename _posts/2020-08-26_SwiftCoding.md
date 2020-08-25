@@ -1,7 +1,7 @@
 ---
 title: "Are the letters unique"
 date: 2020-08-26 1:42:00 -0400
-categories: leetcode
+categories: algorithm
 ---
 
 ### QUESTION

@@ -87,7 +87,7 @@ myCheeseBurger.tomato = false
 myCheeseBurger.showBurger()
 ```
 
-##Builder Design Pattern
+##Factory Design Pattern
 ```markdown
 코드
 ```

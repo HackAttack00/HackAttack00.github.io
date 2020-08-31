@@ -4,7 +4,7 @@ date: 2020-08-29 7:03:00 -0400
 categories: Disign Pattern
 ---
 
-##Builder Design Pattern
+###Builder Design Pattern
 ```markdown
 protocol BurgerBuilder {
     var name: String {get}
@@ -87,7 +87,7 @@ myCheeseBurger.tomato = false
 myCheeseBurger.showBurger()
 ```
 
-##Factory Design Pattern
+###Factory Design Pattern
 ```markdown
 코드
 ```

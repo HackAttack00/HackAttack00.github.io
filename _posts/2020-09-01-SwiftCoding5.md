@@ -25,9 +25,24 @@ class Solution {
         $1 == count ? $0 + 1 : $0
      }
   }
+  
+  func challenge5c(input: String, count: String) -> Int {
+    let array = input.map{ String($0) }
+    let counted = NSCountedSet(array: array)
+    
+    return counted.count(for: count)
+  }
+    
+  func challenge5d(input: String, count: String) -> Int {
+    let modified = input.replacingOccurrences(of: count, with: "")
+      
+    return input.count - modified.count
+  }
 }
 
 let solution = Solution.init()
 solution.challenge5a(input: "hello", count: "l")
 solution.challenge5b(input: "whatthehell", count: "h")
+solution.challenge5c(input: "goodmorning", count: "o")
+solution.challenge5d(input: "idontknow", count: "n")
 ```

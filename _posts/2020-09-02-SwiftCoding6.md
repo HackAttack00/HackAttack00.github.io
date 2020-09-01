@@ -1,11 +1,11 @@
 ---
-title: "Count the characters"
+title: "Remove duplicate letters from a string"
 date: 2020-09-01 1:19:00 -0400
 categories: algorithm
 ---
 
 ### QUESTION
-Write a function that accepts a string, and returns how many times a specific character appears, taking case into account.
+Write a function that accepts a string as its input, and returns the same string just with duplicate letters removed.
 
 ### SOLUTION
 ```markdown

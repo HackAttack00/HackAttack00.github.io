@@ -1,0 +1,22 @@
+---
+title: "Condense whitespace"
+date: 2020-09-03 3:10:00 -0400
+categories: algorithm
+---
+
+### QUESTION
+Write a function that returns a string with any consecutive spaces replaced with a single space.
+
+### SOLUTION
+```markdown
+class Solution {
+  func challenge7a(string: String) -> String {
+    let arrayStr = string.components(separatedBy: .whitespacesAndNewlines)
+    let condensedSpaceStr = arrayStr.filter {!$0.isEmpty}.joined(separator: " ")
+    return condensedSpaceStr
+  }
+}
+
+let solution = Solution.init()
+solution.challenge7a(string: "Hello      hello      hello")
+```

@@ -16,8 +16,18 @@ class Solution {
     let letters = Array(set) as! Array<String>
     return letters.joined()
   }
+  
+  func challenge6c(string: String) -> String {
+    var used = [Character: Bool]()
+  
+    let result = string.filter({
+        used.updateValue(true, forKey: $0) == nil
+    })
+
+    return String(result)
 }
 
 let solution = Solution.init()
 solution.challenge6a(string: "Hello")
+solution.challenge6c(string: "Hello,world")
 ```

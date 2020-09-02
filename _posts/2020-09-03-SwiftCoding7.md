@@ -15,8 +15,12 @@ class Solution {
     let condensedSpaceStr = arrayStr.filter {!$0.isEmpty}.joined(separator: " ")
     return condensedSpaceStr
   }
+  func challenge7b(string: String) -> String {
+    string.replacingOccurrences(of: " +", with: " ", options: .regularExpression, range: nil)
+  }
 }
 
 let solution = Solution.init()
 solution.challenge7a(string: "Hello      hello      hello")
+solution.challenge7b(string: "Hello      hello      hello?")
 ```

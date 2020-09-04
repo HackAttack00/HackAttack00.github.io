@@ -1,7 +1,7 @@
 ---
 title: "Design Pattern"
 date: 2020-08-29 7:03:00 -0400
-categories: Disign Pattern
+categories: Design Pattern
 ---
 
 ###Builder Design Pattern

@@ -1,6 +1,6 @@
 ---
 title: "String is rotated"
-date: 2020-09-08 4:40:00 -0400
+date: 2020-09-04 4:40:00 -0400
 categories: algorithm
 ---
 

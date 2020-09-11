@@ -33,4 +33,4 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge14(string: "wombat", current: "")
-'''
+```

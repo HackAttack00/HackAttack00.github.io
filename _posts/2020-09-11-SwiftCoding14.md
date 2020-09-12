@@ -14,10 +14,10 @@ class Solution {
         let strArray = Array(string)
         
         if (length == 0) {
-//            print(current)
+            print(current)
             print("******")
         } else {
-//            print(current)
+            print(current)
             
             for i in 0 ..< length {
                 let left = String(strArray[0 ..< i])

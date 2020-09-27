@@ -1,6 +1,6 @@
 ---
 title: "Factory Pattern"
-date: 2020-09-27 10:05:00 -0400
+date: 2020-09-27 10:05:00-0400
 categories: pattern
 ---
 

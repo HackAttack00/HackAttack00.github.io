@@ -4,6 +4,8 @@ date: 2020-10-03 08:49:00 -0400
 categories: pattern
 ---
 
+### CODE
+```markdown
 protocol LoggerProfile {
     var loggerProfileId: String {get}
     func writeLog(level: String, message: String)

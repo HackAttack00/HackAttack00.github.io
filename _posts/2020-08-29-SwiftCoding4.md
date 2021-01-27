@@ -2,6 +2,7 @@
 title: "Does one string contain another?"
 date: 2020-08-29 7:03:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

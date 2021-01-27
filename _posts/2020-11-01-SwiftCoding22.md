@@ -2,6 +2,7 @@
 title: "Binary reverse"
 date: 2020-11-01 23:58:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

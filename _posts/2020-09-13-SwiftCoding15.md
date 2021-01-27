@@ -2,6 +2,7 @@
 title: "Reverse the words in a string"
 date: 2020-09-10 23:41:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

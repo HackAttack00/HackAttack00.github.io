@@ -2,6 +2,7 @@
 title: "Find pangrams"
 date: 2020-09-05 4:40:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

@@ -2,6 +2,7 @@
 title: "Count the characters"
 date: 2020-09-01 1:19:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

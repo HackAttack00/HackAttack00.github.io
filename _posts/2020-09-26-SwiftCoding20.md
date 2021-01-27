@@ -2,6 +2,7 @@
 title: "Number is prime"
 date: 2020-09-26 00:04:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

@@ -2,6 +2,7 @@
 title: "Three different letters"
 date: 2020-09-07 22:40:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

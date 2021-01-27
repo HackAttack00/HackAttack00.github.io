@@ -2,6 +2,7 @@
 title: "Swap two numbers"
 date: 2020-09-20 00:23:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

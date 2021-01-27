@@ -2,6 +2,7 @@
 title: "Generate a random number in a range"
 date: 2020-09-15 23:43:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

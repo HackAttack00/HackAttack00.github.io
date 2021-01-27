@@ -2,6 +2,7 @@
 title: "Run-length encoding"
 date: 2020-09-09 23:00:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

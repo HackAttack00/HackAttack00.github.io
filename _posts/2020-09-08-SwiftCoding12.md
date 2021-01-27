@@ -2,6 +2,7 @@
 title: "Find longest prefix"
 date: 2020-09-08 12:35:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

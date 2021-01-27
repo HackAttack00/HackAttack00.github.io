@@ -2,6 +2,7 @@
 title: "Condense whitespace"
 date: 2020-09-03 3:10:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

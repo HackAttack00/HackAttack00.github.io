@@ -2,6 +2,7 @@
 title: "String is rotated"
 date: 2020-09-04 4:40:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

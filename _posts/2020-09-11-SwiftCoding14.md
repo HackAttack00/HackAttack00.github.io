@@ -2,6 +2,7 @@
 title: "String permutations"
 date: 2020-09-10 23:41:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

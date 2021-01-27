@@ -2,6 +2,7 @@
 title: "Fizz Buzz"
 date: 2020-09-14 23:28:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

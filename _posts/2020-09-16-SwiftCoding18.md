@@ -2,6 +2,7 @@
 title: "Recreate the pow() function"
 date: 2020-09-16 24:00:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

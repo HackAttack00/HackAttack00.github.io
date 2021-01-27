@@ -2,6 +2,7 @@
 title: "Is a string a palindrome?"
 date: 2020-08-27 1:03:00 -0400
 categories: algorithm
+tag: algorithm
 ---
 
 ### QUESTION

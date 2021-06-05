@@ -1,7 +1,7 @@
 ---
 title: "iOS keyboard inputview"
 date: 2020-07-31 12:43:00 -0400
-categories: collectionView
+categories: debug
 ---
 
 iOS keyboard inputView rotation중

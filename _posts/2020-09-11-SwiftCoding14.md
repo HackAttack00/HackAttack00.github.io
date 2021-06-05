@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that prints all possible permutations of a given input string.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge14(string: String, current: String = "") {
         let length = string.count
@@ -34,4 +34,4 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge14(string: "wombat", current: "")
-```
+~~~

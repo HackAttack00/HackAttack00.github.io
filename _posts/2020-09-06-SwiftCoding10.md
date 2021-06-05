@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Given a string in English, return a tuple containing the number of vowels and consonants.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge10a(input: String) -> (vowels:Int, consonants:Int) {
         let vowels = CharacterSet(charactersIn: "aeiou")
@@ -52,4 +52,4 @@ class Solution {
 let solution = Solution.init()
 solution.challenge10a(input: "The quick brown fox jumps over the lazy dog")
 solution.challenge10b(input: "abcdefghijklmnopqrstuvwxyz")
-```
+~~~

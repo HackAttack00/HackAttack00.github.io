@@ -7,7 +7,7 @@ categories: pattern
 ### QUESTION
 구현체에서 추상화를 분리, 새로운 요구 사항에 쉽게 대응
 ### SOLUTION
-```markdown
+~~~ swift
 protocol Message {
     var messageString: String {get set}
     init(messageString: String)
@@ -104,4 +104,4 @@ let smsSender = SMSSender.init()
 let messagingBridge = MessagingBridge.init()
 MessagingBridge.sendMessage(message: message, sender: smsSender)
 
-```
+~~~

@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that returns a string with each of its words reversed but in the original order, without using a loop.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge15(input: String) -> String {
         let words = input.split(separator: " ")
@@ -20,6 +20,6 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge15(input: "Swift Coding Challenges")
-```
+~~~
 
 

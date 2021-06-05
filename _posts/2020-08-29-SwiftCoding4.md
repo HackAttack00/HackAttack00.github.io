@@ -9,7 +9,7 @@ tag: algorithm
 Write your own version of the contains() method on String that ignores letter case, and without using the existing contains() method.
 
 ### SOLUTION
-```markdown
+~~~ swift
 extension String {
     func fuzzyContains(_ string: String) -> Bool {
         return self.uppercased().range(of: string.uppercased()) != nil
@@ -21,4 +21,4 @@ extension String {
         return range(of: string, options: .caseInsensitive) != nil
     }
 }
-```
+~~~

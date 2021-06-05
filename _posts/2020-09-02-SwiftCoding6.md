@@ -9,7 +9,7 @@ tag: algorithm
 Write a function that accepts a string as its input, and returns the same string just with duplicate letters removed.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
   func challenge6a(string: String) -> String {
     let array = string.map{ String($0) }
@@ -31,4 +31,4 @@ class Solution {
 let solution = Solution.init()
 solution.challenge6a(string: "Hello")
 solution.challenge6c(string: "Hello,world")
-```
+~~~

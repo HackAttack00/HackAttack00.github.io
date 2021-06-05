@@ -8,6 +8,6 @@ category:
 > Hello!
 
 This is code
-```ruby
+~~~ruby
 print 'hello world'
-```
+~~~

@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that accepts a string of words with a simiar prefix, separated by spaces, and returns the longest substring that prefixes all words.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge12(input: String) -> String {
         let parts = input.components(separatedBy: " ")
@@ -53,4 +53,4 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge12(input: "swift switch swill swim")
-```
+~~~

@@ -9,7 +9,7 @@ tag: algorithm
 Write a function that accepts a String as its only parameter, and returns true if the string reads the same when reversed, ignoring case.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge2(input: String) -> Bool {
         let lowercase = input.lowercased()
@@ -21,4 +21,4 @@ class Solution {
 let solution = Solution.init()
 print("Rats live on no evil star \(solution.challenge2(input: "Rats live on no evil star"))")
 print("rotator \(solution.challenge2(input: "rotator"))")
-```
+~~~

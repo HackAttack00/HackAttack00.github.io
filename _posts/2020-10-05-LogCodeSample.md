@@ -5,7 +5,7 @@ categories: pattern
 ---
 
 ### CODE
-```markdown
+~~~ swift
 protocol LoggerProfile {
     var loggerProfileId: String {get}
     func writeLog(level: String, message: String)
@@ -131,4 +131,4 @@ MyLogger.writeLog(logLevel: .Debug, message: "Debug Message 1")
 MyLogger.writeLog(logLevel: .Debug, message: "Debug Message 2")
 MyLogger.writeLog(logLevel: .Error, message: "Error Message 1")
 MyLogger.writeLog(logLevel: .Error, message: "Error Message 2")
-```
+~~~

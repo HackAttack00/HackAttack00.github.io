@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that accepts positive minimum and maximum integers, and returns a random nmber between those two bounds, inclusive.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge18(number: Int, power: Int) -> Int {
       guard number > 0, power > 0 else { return 0 }
@@ -19,5 +19,5 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge18(number: 8, power: 3)
-```
+~~~
 

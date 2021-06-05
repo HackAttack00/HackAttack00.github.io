@@ -9,7 +9,7 @@ tag: algorithm
 Write a function that accepts a String as its only parameter, and returns true if the string reads the same when reversed, ignoring case.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge3a(string1: String, string2: String) -> Bool {
         
@@ -44,4 +44,4 @@ let solution = Solution.init()
 
 solution.challenge3a(string1: "a1 b2    ", string2: "b 1 a 2")
 solution.challenge3b(string1: "a1 b2    ", string2: "b 1 a 2")
-```
+~~~

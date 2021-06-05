@@ -9,7 +9,7 @@ tag: algorithm
 Write a function that returns a string with any consecutive spaces replaced with a single space.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
   func challenge7a(string: String) -> String {
     let arrayStr = string.components(separatedBy: .whitespacesAndNewlines)
@@ -24,4 +24,4 @@ class Solution {
 let solution = Solution.init()
 solution.challenge7a(string: "Hello      hello      hello")
 solution.challenge7b(string: "Hello      hello      hello?")
-```
+~~~

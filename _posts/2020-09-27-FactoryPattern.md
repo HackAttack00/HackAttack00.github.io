@@ -7,7 +7,7 @@ categories: pattern
 ### QUESTION
 적절한 생성자를 런타임에서 선택
 ### SOLUTION
-```markdown
+~~~ swift
 protocol TextValidation {
     var regExFindMatchString: String { get }
     var validationMessage: String { get }
@@ -77,4 +77,4 @@ print("string validated: \(validator1?.validateString(str: str) ?? false)")
 
 var validator2 = getValidator(alphaCharacters: true, numericCharacters: true)
 print("string validated: \(validator2?.validateString(str: str) ?? false)")
-```
+~~~

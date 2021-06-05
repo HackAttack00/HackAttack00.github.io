@@ -9,7 +9,7 @@ tag: algorithm
 Create a function that accepts any positive integer and returns the next highest and next lowest number that has same number of ones in its binary representation. if either number is not possible, return nil for it.
 
 ### SOLUTION
-```markdown
+~~~ swift
 func challenge21(number: Int) -> (nextHighest: Int?, nextLowest: Int?) {
     func ones(in number: Int) -> Int {
         let currentBinary = String(number, radix: 2)
@@ -38,4 +38,4 @@ func challenge21(number: Int) -> (nextHighest: Int?, nextLowest: Int?) {
 }
 
 challenge21(number: 22)
-```
+~~~

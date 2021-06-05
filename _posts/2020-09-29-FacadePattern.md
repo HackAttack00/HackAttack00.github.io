@@ -7,7 +7,7 @@ categories: pattern
 ### QUESTION
 API의 복잡성을 간단한 인터페이스 뒤로 숨겨서 단순화
 ### SOLUTION
-```markdown
+~~~ swift
 struct Hotel {
     
 }
@@ -52,4 +52,4 @@ struct TravelFacade {
         FlightBooking.bookFlight(flight: flight)
     }
 }
-```
+~~~

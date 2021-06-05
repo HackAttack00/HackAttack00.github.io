@@ -7,7 +7,7 @@ categories: pattern
 ### QUESTION
 커맨드 실행과 호출을 분리해야하는 경우, 런타임에서 행동을 선택
 ### SOLUTION
-```markdown
+~~~ swift
 protocol MathCommand {
     func execute(num1: Double, num2: Double) -> Double
 }
@@ -47,4 +47,4 @@ var startValue = calc.performCalculaton(num1: 25, num2: 10, command: Subtraction
 var answer = calc.performCalculaton(num1: startValue, num2: 5, command: MultiplicationCommand())
 
 
-```
+~~~

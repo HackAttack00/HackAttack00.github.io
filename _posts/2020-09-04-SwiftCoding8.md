@@ -9,7 +9,7 @@ tag: algorithm
 Write a function that accepts two strings, and returns true if one string is rotation of the other, taking letter case into account.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge8(input: String, rotated: String) -> Bool {
         let combined = input + input
@@ -28,4 +28,4 @@ class Solution {
 let solution = Solution.init()
 solution.challenge8(input: "hello", rotated: "llohe")
 solution.challenge8a(input: "hello", rotated: "llohe")
-```
+~~~

@@ -7,7 +7,7 @@ categories: pattern
 ### QUESTION
 복잡한 생성자를 단순화 시키기위한 빌더 패턴
 ### SOLUTION
-```markdown
+~~~ swift
 protocol PizzaBase {
     var name: String { get }
     var cheeze: Bool { get }
@@ -51,4 +51,4 @@ myPizzaOrder.showPizza()
 let blackShrimpPizza = BlackShrimpPizza()
 var myPizzaOrder2 = Pizza(builder: blackShrimpPizza)
 myPizzaOrder2.showPizza()
-```
+~~~

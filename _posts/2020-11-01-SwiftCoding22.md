@@ -9,7 +9,7 @@ tag: algorithm
 Create a function that accepts an unsigned 8-bit integer and returns its binary reverse, padded so that it holds precisely eight binary digits.
 
 ### SOLUTION
-```markdown
+~~~ swift
 func challenge22(number: UInt) -> UInt {
   let binary = String(number, radix: 2)
   let paddingAmount = 8 - binary.count
@@ -20,4 +20,4 @@ func challenge22(number: UInt) -> UInt {
 }
 
 challenge22(number: 20)
-```
+~~~

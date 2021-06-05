@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that counts from 1 through 100, and prints "Fizz" if the counter is evenly divisible by 3, "Buzz" if it's evenly divisible by 5, "Fizz Buzz" if it's even divisibly by three and five, or the counter number for all other cases.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge16() {
         var mod1: Int
@@ -42,4 +42,4 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge16()
-```
+~~~

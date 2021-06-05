@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that accepts a string as input, then return often each letter is repeated in a single run, taking case into account.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge13(input: String) -> String {
         var currentLetter: Character?
@@ -56,4 +56,4 @@ class Solution {
 let solution = Solution.init()
 solution.challenge13(input: "aaabbbccccaaaaaa")
 solution.challenge13b(input: "aaabbbccccaaaaaa")
-```
+~~~

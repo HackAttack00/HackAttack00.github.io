@@ -9,7 +9,7 @@ tag: algorithm
 Write a function that accepts a string, and returns how many times a specific character appears, taking case into account.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
   func challenge5a(input: String, count: Character) -> Int {
      var letterCount = 0
@@ -46,4 +46,4 @@ solution.challenge5a(input: "hello", count: "l")
 solution.challenge5b(input: "whatthehell", count: "h")
 solution.challenge5c(input: "goodmorning", count: "o")
 solution.challenge5d(input: "idontknow", count: "n")
-```
+~~~

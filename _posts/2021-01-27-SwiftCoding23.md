@@ -9,10 +9,10 @@ tag: algorithm
 Write a function that accepts a string and returns true if it contains only numbers, i.e. the digits through 9.
 
 ### SOLUTION
-```markdown
+~~~ swift
 func challenge23(input: String) -> Bool {
   return UInt(input) != nil
 }
 
 challenge23(input: "12345")
-```
+~~~

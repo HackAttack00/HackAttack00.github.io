@@ -7,7 +7,7 @@ categories: pattern
 ### QUESTION
 추상레이어 생성이 필요할때, 의존성 있는 API를 변경해야할때
 ### SOLUTION
-```markdown
+~~~ swift
 public typealias DataFromURLCompletionClosure = (Data?) -> Void
 
 public struct ITunesProxy {
@@ -46,4 +46,4 @@ proxy.sendGetRequest(searchTeam: "jimmy_buffett", {
                             print("Data is nil")
                         }
 })
-```
+~~~

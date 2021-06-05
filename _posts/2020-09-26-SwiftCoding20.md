@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that accepts an integer as its parameter and returns true if the number is prime.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge20(number: Int) -> Bool {
         guard number >= 2 else { return false }
@@ -28,4 +28,4 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge20(number: 17)
-```
+~~~

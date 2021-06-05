@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Swap two positive variable integers, a and b, without using a temporary variable.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge19(number1: Int, number2: Int) -> (Int, Int) {
         var num1 = number1 ^ number2
@@ -32,7 +32,7 @@ var n2 = 6
 let solution = Solution.init()
 solution.challenge19a(number1: &n1, number2: &n2)
 solution.challenge19b(number1: n1, number2: n2)
-```
+~~~
 
 
 

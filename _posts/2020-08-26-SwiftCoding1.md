@@ -9,7 +9,7 @@ tag: algorithm
 Write a function the accepts a String as its only parameter, and returns true if the string has only unique letters, taking letter case into account.
 
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge1(input: String) -> Bool {
         
@@ -30,4 +30,4 @@ class Solution {
 let solution = Solution.init()
 print("abcdefghijklmnop \(solution.challenge1(input: "abcdefghijklmnop"))")
 print("Hello, world \(solution.challenge1(input: "Hello, world"))")
-```
+~~~

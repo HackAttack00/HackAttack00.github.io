@@ -8,7 +8,7 @@ tag: algorithm
 ### QUESTION
 Write a function that accepts positive minimum and maximum integers, and returns a random nmber between those two bounds, inclusive.
 ### SOLUTION
-```markdown
+~~~ swift
 class Solution {
     func challenge17(min: Int, max: Int) -> Int {
         return Int(arc4random_uniform(UInt32(max - min + 1))) + min
@@ -17,7 +17,7 @@ class Solution {
 
 let solution = Solution.init()
 solution.challenge17(min: 8, max: 14)
-```
+~~~
 
 
 

@@ -16,3 +16,4 @@ func challenge23(input: String) -> Bool {
 
 challenge23(input: "12345")
 ~~~
+

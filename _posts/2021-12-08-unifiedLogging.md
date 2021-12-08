@@ -1,4 +1,10 @@
+---
+layout: post
+title: iOS14 Logger API (통합 로깅 api)
+date: 2021-12-08 17:13:27 +0900
+category: wwdc
 
+---
 
 ## iOS14 Logger API (통합 로깅 api)
 

@@ -21,8 +21,6 @@ example(of: "collect") {
 }
 ~~~
 
-
-
 2. map(_ :)
 
 ~~~swift
